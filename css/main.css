@@ -2584,7 +2584,7 @@ header .header-logo a {
  *
  * ------------------------------------------------------------------- */
 #portfolio {
-	background: #EBEBEB;
+	/* background: #EBEBEB; */
 	min-height: 800px;
 	position: relative;
 	padding: 12rem 0 15rem;
@@ -2603,6 +2603,7 @@ header .header-logo a {
 #portfolio .bricks-wrapper .brick {
 	float: left;
 	width: 50%;
+	/* width: 33%; */
 	padding: 0;
 	margin: 0;
 }
