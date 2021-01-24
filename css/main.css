@@ -2584,7 +2584,7 @@ header .header-logo a {
  *
  * ------------------------------------------------------------------- */
 #portfolio {
-	/* background: #EBEBEB; */
+  /* background: #EBEBEB; */
 	min-height: 800px;
 	position: relative;
 	padding: 12rem 0 15rem;
