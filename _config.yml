@@ -81,11 +81,11 @@ analytics:
 # Site Author
 author:
   name             : "Mostafa Rushdi"
-  avatar           : "profile.png"
+  avatar           : "rushdi.jpg"
   bio              : "Research Assistant Professor @ RIAM - KU "
   location         : "Fukuoka, Japan"
   employer         : "Kyushu University"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=-GxwEQcAAAAJ&hl=en"
   email            : "rushdimostafa@riam.kyushu-u.ac.jp"
   researchgate     : "https://www.researchgate.net/profile/Mostafa-Rushdi"
