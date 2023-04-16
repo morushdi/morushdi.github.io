@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+<iframe src="/files/pdf/Rushdi_CV_long_2022.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+
+
 Education
 ======
 * Ph.D., Airborne Wind Energy Systems, ESST - IGSES - Kyushu University, Japan (October 2017 - March 2021)
@@ -72,7 +75,5 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-
-<iframe src="/files/pdf/Rushdi_CV_long_2022.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 You can download a PDF copy of my CV [here](/files/pdf/Rushdi_CV_long_2022.pdf).
