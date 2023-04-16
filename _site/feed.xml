@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-16T00:00:24-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mostafa Rushdi</title><subtitle>Research Assistant Professor @ RIAM - KU e</subtitle><author><name>Mostafa Rushdi</name><email>rushdimostafa@riam.kyushu-u.ac.jp</email></author><entry><title type="html">Combining PDF Documents</title><link href="http://localhost:4000/posts/2019/06/combining-pdfs/" rel="alternate" type="text/html" title="Combining PDF Documents" /><published>2019-06-26T00:00:00-05:00</published><updated>2019-06-26T00:00:00-05:00</updated><id>http://localhost:4000/posts/2019/06/combining-pdfs</id><content type="html" xml:base="http://localhost:4000/posts/2019/06/combining-pdfs/">&lt;p&gt;How many times have you found that your institution has access to a digital version of a book you need only to discover that it comes in 15 different PDF files?
+&lt;!--more--&gt;
+I use &lt;a href=&quot;https://www.zotero.org/&quot;&gt;Zotero&lt;/a&gt; as my reference manager and it’s difficult to attach more than one file to an entry, so I’ve certaintly spent time in the past painstakingly combining every section of a book together before adding it to Zotero. I finally got tired of doing this by hand and wrote a short Bash script to automate this process. Now I can combine as many PDFs as I want with a single command!&lt;/p&gt;
+
+&lt;h1 id=&quot;how-it-works&quot;&gt;How it works&lt;/h1&gt;
+
+&lt;p&gt;My solution relies on &lt;a href=&quot;https://www.ghostscript.com/&quot;&gt;Ghostscript&lt;/a&gt; to combine multiple PDF files from the command line. On a Mac you can easily install Ghostscript using &lt;a href=&quot;https://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; by running&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ghostscript
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once you’ve done that you’ve got everything you need. Create a shell script and put the following in it&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[[&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$# &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-eq&lt;/span&gt; 0 &lt;span class=&quot;o&quot;&gt;]]&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then
+  &lt;/span&gt;gs &lt;span class=&quot;nt&quot;&gt;-dBATCH&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dNOPAUSE&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sDEVICE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pdfwrite &lt;span class=&quot;nt&quot;&gt;-sOutputFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;output.pdf &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.pdf
+&lt;span class=&quot;k&quot;&gt;else
+  &lt;/span&gt;gs &lt;span class=&quot;nt&quot;&gt;-dBATCH&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-dNOPAUSE&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-q&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-sDEVICE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;pdfwrite &lt;span class=&quot;nt&quot;&gt;-sOutputFile&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.pdf
+&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The script first checks if you’ve supplied an output filename as an argument, and if not uses the default name of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.pdf&lt;/code&gt;. Be aware of where you run this script as it will overwrite a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.pdf&lt;/code&gt; if it exists in the active directory! If you have supplied an output filename, it will use that instead of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;output.pdf&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;running-it&quot;&gt;Running it&lt;/h2&gt;
+
+&lt;p&gt;To actually run this script, there are two steps left:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Make it executable&lt;/li&gt;
+  &lt;li&gt;Add it to your PATH&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Making your script executable is relatively straightforward. Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chmod +x&lt;/code&gt; command in Terminal on your script. I saved mine as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PDFcombine.sh&lt;/code&gt; so I ran &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chmod +x PDFcombine.sh&lt;/code&gt;. Putting your script on your PATH just ensures that your Terminal will be able to find it when you call it to combine PDF files. It’s a little more complicated so I’ll just link to this &lt;a href=&quot;https://unix.stackexchange.com/a/26059&quot;&gt;excellent StackExchange answer&lt;/a&gt; on how to do so. On my system this script lives in a directory in my Dropbox with similar other small utilities called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bash&lt;/code&gt;, so my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt; has these lines in it&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# custom bash scripts                                                           &lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;:/Users/Rob/Dropbox/Methods/Bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;to add it to my PATH. As an added bonus Ghostscript will (usually) rotate any pages containing sideways tables or figures!&lt;/p&gt;
+
+&lt;h1 id=&quot;a-warning&quot;&gt;A warning&lt;/h1&gt;
+
+&lt;p&gt;This script will combine PDF files in the order that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls *.pdf&lt;/code&gt; returns them. By default, this will be an &lt;em&gt;alphabetic sort&lt;/em&gt;, so the files 1.pdf, 2.pdf, and 10.pdf would be combined in the following order: 1.pdf, 10.pdf, 2.pdf.&lt;/p&gt;
+
+&lt;p&gt;You can fix this by adding leading zeroes to all filenames so that each ID string is the same length. Most digital versions of books give you filenames like this, but be sure to check, otherwise your combined PDF might require a lot of skipping around. This script can be written to perform a &lt;em&gt;natural sort&lt;/em&gt; of input files, but the code to do so is more complex, so I’ll cover it in a future post.&lt;/p&gt;</content><author><name>Mostafa Rushdi</name><email>rushdimostafa@riam.kyushu-u.ac.jp</email></author><category term="references" /><category term="bash" /><summary type="html">How many times have you found that your institution has access to a digital version of a book you need only to discover that it comes in 15 different PDF files?</summary></entry></feed>
