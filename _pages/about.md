@@ -7,14 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+(16/4/2023) Updating the website -- In progress 
 
-Welcome! I am an energetic, results-oriented, Aeronautical Engineer. Currently, I am a postdoctoral researcher at the Research Institute for Applied Mechanics (RIAM), Kyushu University. I received a PhD degree at Kyushu University in Fukuoka, Japan, and completed MSc and BSc degrees in Aeronautical and Aerospace Engineering from Cairo University, Egypt.
+Welcome! I am an energetic, results-oriented, Aeronautical Engineer. Currently, I am a research assistant professor at the Research Institute for Applied Mechanics (RIAM), Kyushu University. I received a PhD degree at Kyushu University in Fukuoka, Japan, and completed MSc and BSc degrees in Aeronautical and Aerospace Engineering from Cairo University, Egypt.
 
-My research interests include guidance, control systems, embedded systems, optimization, and dynamics especially related to renewable energy systems. 
+My research interests include ML/DL, Data science, control systems, guidance, embedded systems, optimization, and dynamics especially related to renewable energy systems. 
 
-I have recently become interested in applying state-of-the-art research in artificial intelligence into my work. 
+In the past few years, I am focusing on applying state-of-the-art research in artificial intelligence into my work. 
 
-<!-- I am married to [Menna Fateen](mennafateen.github.io) and I'm father of two sons. My hobbies are photography, travel, and playing football. -->
+I am married to [Menna Fateen](mennafateen.github.io) and I'm father of two sons. My hobbies are photography, travel, and playing football.
 
 <!-- Welcome! I am a data scientist applying machine learning tools and causal
 inference techniques to remote sensing data. I am also an affiliated

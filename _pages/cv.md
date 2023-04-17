@@ -7,10 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-<iframe src="/files/pdf/Rushdi_CV_long_2022.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
-
 
 Education
 ======
@@ -75,5 +71,10 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+
+{% include base_path %}
+
+<iframe src="/files/pdf/Rushdi_CV_long_2022.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 You can download a PDF copy of my CV [here](/files/pdf/Rushdi_CV_long_2022.pdf).
