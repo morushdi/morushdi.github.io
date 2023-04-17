@@ -1,7 +1,8 @@
 ---
 title: "Hardware-in-the-Loop (HIL) and Experimental Findings for the 7 kW Pumping Kite Power System"
 collection: publications
-permalink: 'In this paper, we showd the flight test experiments of KPS.'
+permalink: /publication/2020-01-01-hardware_in_loop
+excerpt: 'In this paper, we showd the flight test experiments of KPS.'
 date: 2020-01-01
 venue: 'AIAA (American Institute of Aeronautics and Astronautics) Conference'
 # paperurl: 'https://arc.aiaa.org/doi/abs/10.2514/6.2020-1244'
