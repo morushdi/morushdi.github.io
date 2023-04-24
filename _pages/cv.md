@@ -10,26 +10,35 @@ redirect_from:
 
 Education 🎓
 ======
-* Ph.D., Airborne Wind Energy Systems, ESST - IGSES - Kyushu University, Japan (October 2017 - March 2021)
+* **Ph.D., Airborne Wind Energy Systems**
+  * 🏫 [ESST](http://www.esst.kyushu-u.ac.jp/english/index.html) - [IGSES](http://www.tj.kyushu-u.ac.jp/en/index.php) - [Kyushu University](https://www.kyushu-u.ac.jp/en/)
+  * 📍 Fukuoka, Japan 🇯🇵
+  * 🗓️ October 2017 - March 2021
 
-  Research on kite systems for energy harvesting. \
-  Thesis: ”AirborneWind Energy Systems: Flight Data Analysis Using System Identification and Machine Learning, and Control of Launching.”
+  ☞ Research on kite systems for energy harvesting. \
+  ☞ <ins>Thesis</ins>: ”Airborne Wind Energy Systems: Flight Data Analysis Using System Identification and Machine Learning, and Control of Launching.”
 
-* M.Sc., Aerospace Engineering, Faculty of Engineering - Cairo University, Egypt (October 2013 - September 2017)
+* **M.Sc., Aerospace Engineering**
+  * 🏫 [Faculty of Engineering](https://eng.cu.edu.eg/en/) - [Cairo University](https://cu.edu.eg/Home)
+  * 📍 Giza, Egypt 🇪🇬
+  * 🗓️ October 2013 - September 2017
 
-  Thesis: ”Optimal Aircraft Evasion Trajectory: Analysis and Simulation of the Target-Attacker and the Target-Attacker-Defender Problems.” \
-  Graduate course work: Nonlinear control • PLC • Experimental Methods in Aerospace Engineering • Aero Elasticity • Continuum Mechanics • Heat Transfer • Advanced Numerical Analysis • PDE.
+  ☞ <ins>Thesis</ins>: ”Optimal Aircraft Evasion Trajectory: Analysis and Simulation of the Target-Attacker and the Target-Attacker-Defender Problems.” \
+  📚 <ins>Graduate course work</ins>: Nonlinear control • PLC • Experimental Methods in Aerospace Engineering • Aero Elasticity • Continuum Mechanics • Heat Transfer • Advanced Numerical Analysis • PDE.
 
-* B.Sc., Aerospace Engineering, Faculty of Engineering - Cairo University, Egypt, (September 2008 - July 2013)
+* **B.Sc., Aerospace Engineering**
+  * 🏫 Faculty of Engineering - Cairo University
+  * 📍 Giza, Egypt 🇪🇬
+  * 🗓️ September 2008 - July 2013
 
-  Graduation project: “Micro-Flapping Air Vehicle” 
+  ☞ <ins>Graduation project</ins>: “Micro-Flapping Air Vehicle” 
 
 
 Work experience 💼
 ======
 
 * **Research Assistant Professor** 
-  * 🏫 Research Institute for Applied Mechanics (RIAM)
+  * 🏫 Research Institute for Applied Mechanics ([RIAM](https://www.riam.kyushu-u.ac.jp/en/index-e.html))
   * 📍 Fukuoka, Japan 🇯🇵
   * 🗓️ May 2022 - Present
 
@@ -45,15 +54,16 @@ Work experience 💼
 
 
 * **Intern**
-  * Airborne wind energy company, Kitepowr
-  * 📍 Delft, Netherlands 🇳🇱🇳
+  * Airborne wind energy company, [Kitepowr](https://thekitepower.com/)
+  * 🏫 Delft University of Technology (TU Delft)
+  * 📍 Delft, Netherlands 🇳🇱
   * 🗓️ April 2019 - July 2019
 
   ☞ Working with the company team on dynamic modelling and control of a rigid vetical take off landing aircraft and simulation of the power cycle aimimng to maximize the generated electricity.
 
 
 * **Teaching Assistant**
-  * 🏫 Future University in Egypt (FUE)
+  * 🏫 Future University in Egypt ([FUE](https://www.fue.edu.eg/))
   * 📍 Cairo, Egypt 🇪🇬
   * 🗓️ April 2015 - October 2017
 
@@ -69,7 +79,7 @@ Work experience 💼
 
 
 * **Intern**
-  * Egypt CAN-Sat, Space Systems Technology Laboratory (SSTL)
+  * Egypt CAN-Sat, Space Systems Technology Laboratory ([SSTL](https://www.facebook.com/SSTLab/))
   * 📍 Cairo, Egypt 🇪🇬
   * 🗓️ June 2011 - July 2013
 
@@ -82,11 +92,20 @@ For a long time, I have been using a lot of computer tools, engineering programs
 
 The important thing is that I could learn in a fast way and get the job done ;)
 
-* Matlab
-* Simulink
-* Python
-* ML & DL Libraries
-* Latex
+* Languages 
+  * Python / Jupyter
+  * Matlab / Simulink
+* ML & DL
+  * Tensorflow 
+  * Scikit-Learn 
+* Visualization 
+  * Matplotlib
+  * SciencePlots
+  * Seaborn
+  * Plotly
+* Technical Writing 
+  * Latex
+  * MS office
 
 Publications 📃
 ======
