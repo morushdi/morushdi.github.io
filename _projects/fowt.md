@@ -1,7 +1,7 @@
 ---
 title: "Floating Offshore Wind Turbine (FOWT)"
 layout: single-portfolio
-excerpt: "<img src='/images/research/map.png' alt=''>"
+excerpt: "<img src='/images/ProjectsPhotos/FOWT.png' alt=''>"
 collection: projects
 order_number: 20
 header: 

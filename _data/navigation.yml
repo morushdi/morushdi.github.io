@@ -15,6 +15,6 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Blog Posts"
-    url: /posts/
+  # - title: "Blog Posts"
+  #   url: /posts/
     

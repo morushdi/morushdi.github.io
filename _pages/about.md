@@ -7,7 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-(16/4/2023) Updating the website -- In progress 
 
 **Welcome!** \
 I am an energetic, results-oriented, Aeronautical Engineer. Currently, I am a research assistant professor at the Research Institute for Applied Mechanics ([RIAM](https://www.riam.kyushu-u.ac.jp/en/index-e.html)), Renewable Energy Integrated Utilization Section ([REIUS](https://www.riam.kyushu-u.ac.jp/REC/reiu_e.html)), Kyushu University. I received a PhD degree at Kyushu University in Fukuoka, Japan, and completed MSc and BSc degrees in Aeronautical and Aerospace Engineering from Cairo University, Egypt.

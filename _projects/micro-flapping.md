@@ -1,9 +1,9 @@
 ---
 title: "Micro-flapping Air Vehicle"
 layout: single-portfolio
-excerpt: "<img src='/images/research/ternary.png' alt=''>"
+excerpt: "<img src='/images/ProjectsPhotos/Flapping.png' alt=''>"
 collection: projects
-order_number: 50
+order_number: 60
 header: 
   og_image: "projects/ternary.png"
 ---

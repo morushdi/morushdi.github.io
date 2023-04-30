@@ -1,7 +1,7 @@
 ---
-title: "Machine Learning with CFD Applications"
+title: "DL with CFD Applications"
 layout: single-portfolio
-excerpt: "<img src='/images/research/epr.png' alt=''>"
+excerpt: "<img src='/images/ProjectsPhotos/DL_CFD.png' alt=''>"
 collection: projects
 order_number: 10
 header: 
