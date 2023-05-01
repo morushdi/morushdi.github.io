@@ -95,6 +95,7 @@ The important thing is that I could learn in a fast way and get the job done ;)
 * Languages 
   * Python / Jupyter
   * Matlab / Simulink
+  * SQL
 * ML & DL
   * Tensorflow 
   * Scikit-Learn 

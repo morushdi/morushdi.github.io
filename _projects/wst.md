@@ -1,7 +1,7 @@
 ---
 title: "Wind Solar Tower (WST)"
 layout: single-portfolio
-excerpt: "<img src='/images/ProjectsPhotos/WST.png' alt=''>"
+excerpt: "<img src='/images/ProjectsPhotos/WST.PNG' alt=''>"
 collection: projects
 order_number: 30
 header: 

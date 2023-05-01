@@ -1,7 +1,7 @@
 ---
 title: "VTOL Rigid Aircraft"
 layout: single-portfolio
-excerpt: "<img src='/images/ProjectsPhotos/VTOL.png' alt=''>"
+excerpt: "<img src='/images/ProjectsPhotos/VTOL.PNG' alt=''>"
 collection: projects
 order_number: 50
 header: 

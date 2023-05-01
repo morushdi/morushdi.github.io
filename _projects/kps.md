@@ -1,7 +1,7 @@
 ---
 title: "Kite Power System (KPS)"
 layout: single-portfolio
-excerpt: "<img src='/images/ProjectsPhotos/KPS.png' alt=''>"
+excerpt: "<img src='/images/ProjectsPhotos/KPS.PNG' alt=''>"
 collection: projects
 order_number: 40
 header: 
