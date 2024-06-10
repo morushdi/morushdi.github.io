@@ -31,13 +31,13 @@ Education 🎓
   * 📍 Giza, Egypt 🇪🇬
   * 🗓️ September 2008 - July 2013
 
-  ☞ <ins>Graduation project</ins>: “Micro-Flapping Air Vehicle” 
+  ☞ <ins>Graduation project</ins>: “Micro-Flapping Air Vehicle”
 
 
 Work experience 💼
 ======
 
-* **Research Assistant Professor** 
+* **Research Assistant Professor**
   * 🏫 Research Institute for Applied Mechanics ([RIAM](https://www.riam.kyushu-u.ac.jp/en/index-e.html))
   * 📍 Fukuoka, Japan 🇯🇵
   * 🗓️ May 2022 - Present
@@ -85,26 +85,26 @@ Work experience 💼
 
   ☞ Developed a circit using an Mbed microcontroller to interface with different sensors: pressure, temperature, accelerometer, gyroscope, GPS sensors, and wireless module XBEE.
   Also, organized Can-Sat Training Program (CTP2).  
-  
+
 Skills ⚙️
 ======
 For a long time, I have been using a lot of computer tools, engineering programs, and programming languages. When I face a problem, I could learn some tools quickly and solve the problem or generate some results.
 
 The important thing is that I could learn in a fast way and get the job done ;)
 
-* Languages 
+* Languages
   * Python / Jupyter
   * Matlab / Simulink
   * SQL
 * ML & DL
-  * Tensorflow 
-  * Scikit-Learn 
-* Visualization 
+  * Tensorflow
+  * Scikit-Learn
+* Visualization
   * Matplotlib
   * SciencePlots
   * Seaborn
   * Plotly
-* Technical Writing 
+* Technical Writing
   * Latex
   * MS office
 
@@ -121,6 +121,6 @@ Publications 📃
 
 <iframe src="/files/pdf/Rushdi_CV_Full_version_2023.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
-[comment]: <iframe src="/files/pdf/Rushdi_CV_short_version_2023.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+[comment]: <iframe src="/files/pdf/Rushdi_CV___DS___202402.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
-You can download a PDF copy of my CV [here](/files/pdf/Rushdi_CV_Full_version_2023.pdf).
+You can download a PDF copy of my CV [here](/files/pdf/Rushdi_CV_Full_version__202402.pdf).
