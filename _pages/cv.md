@@ -127,8 +127,8 @@ Publications 📃
 
 <iframe src="/files/pdf/Rushdi_CV___DS___202508.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
-<iframe src="/files/pdf/Rushdi_CV_Full_version__202505.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<iframe src="/files/pdf/Rushdi_CV_Full_version_202505.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 [comment]: <iframe src="/files/pdf/Rushdi_CV___DS___202402.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
-You can download a PDF copy of my CV [here](/files/pdf/Rushdi_CV_Full_version__202505.pdf).
+You can download a PDF copy of my CV [here](/files/pdf/Rushdi_CV_Full_version_202505.pdf).
