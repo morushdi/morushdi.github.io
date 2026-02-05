@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Mostafa Rushdi"
 title_separator          : "-"
 name                     : &name "Mostafa Rushdi"
-description              : &description "Research Assistant Professor @ RIAM - KU e"
+description              : &description "Assistant Professor @ IOES"
 url                      : https://morushdi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "morushdi/morushdi.github.io"
@@ -86,13 +86,13 @@ analytics:
 author:
   name             : "Mostafa Rushdi"
   avatar           : "rushdi.jpg"
-  bio              : "Research Assistant Professor @ RIAM - KU "
-  location         : "Fukuoka, Japan"
-  employer         : "Kyushu University"
+  bio              : "Assistant Professor @ IOES"
+  location         : "Saga, Japan"
+  employer         : "Saga University"
   pubmed           :
   orcid            : "https://orcid.org/0000-0001-6364-3298"
   googlescholar    : "https://scholar.google.com/citations?user=-GxwEQcAAAAJ&hl=en"
-  email            : "rushdimostafa@riam.kyushu-u.ac.jp"
+  email            : "rushdi.mostafa@ioes.saga-u.ac.jp"
   researchgate     :  "https://www.researchgate.net/profile/Mostafa-Rushdi"
   uri              :
   bitbucket        :
@@ -110,6 +110,7 @@ author:
   lastfm           :
   linkedin         : "mostafa-rushdi"
   mastodon         : 
+  notion           : "https://mostafarushdi.notion.site/mostafa-rushdi"
   pinterest        :
   soundcloud       :
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"

@@ -37,10 +37,19 @@ Education 🎓
 Work experience 💼
 ======
 
+* **Assistant Professor**
+  * 🏛️ Saga University, Institute of Ocean Energy ([IOES](https://ioes.saga-u.ac.jp/))
+  * 📍 Saga, Japan 🇯🇵
+  * 🗓️ April 2025 - Present
+
+  ☞ Floating Offshore Wind Turbine (FOWT) Project: loads prediction ⇒ structural behavior \
+  ☞ ML with CFD applications: Working on creating a new generation of numerical finite volume schemes using machine learning to reduce the reliance on mesh resolution ⇒ curvature prediction
+
+
 * **Research Assistant Professor**
   * 🏫 Research Institute for Applied Mechanics ([RIAM](https://www.riam.kyushu-u.ac.jp/en/index-e.html))
   * 📍 Fukuoka, Japan 🇯🇵
-  * 🗓️ May 2022 - Present
+  * 🗓️ May 2022 - March 2025
 
   ☞ Working on several projects related to FOWT, renewable energy, and CFD using machine learning methods.
 
